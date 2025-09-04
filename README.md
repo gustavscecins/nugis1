@@ -1,1 +1,18 @@
-# nugis1
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main() {
+    int grade = 90 ;
+    cout << "raksti procentus" << endl;
+
+    cin >> grade;
+
+if (grade > 60) {
+    cout << "nugis";
+}
+else {
+    cout << "stulbs bet pro";
+}
+    
+}
